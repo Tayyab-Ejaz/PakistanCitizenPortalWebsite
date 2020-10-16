@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Task 06</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        
+        body {
+            padding: 8px;
+        }
+        
+        .header {
+            height: 315px;
+            margin-bottom: 5px;
+        }
+        
+        #leftImage {
+            width: 72%;
+            height: 100%;
+        }
+        
+        #rightImage {
+            width: 27%;
+            height: 100%;
+        }
+        
+        .navbar {
+            background-color: #108462;
+            color: white;
+            border-radius: 4px;
+        }
+        
+        .navbar ul {
+            list-style: none;
+        }
+        
+        .navbar li {
+            display: inline-block;
+            padding: 20px 26px;
+            font-size: 1.2rem;
+            border-radius: 4px;
+        }
+        
+        .navbar li:hover {
+            background-color: #53b598;
+            cursor: pointer;
+            color: black;
+        }
+        
+        .activePage {
+            color: black;
+            background-color: #53b598;
+        }
+        
+        .leftContainer {
+            width: 20%;
+            float: left;
+            padding: 14px;
+        }
+        
+        .rightContainer {
+            width: 80%;
+            float: left;
+        }
+        
+        .leftContainer ul {
+            list-style-type: none;
+            width: 100%;
+            background-color: #cbd6cc;
+            margin: 28px 0px 10px;
+            border-radius: 4px;
+        }
+        
+        .leftContainer li {
+            padding: 12px
+        }
+        
+        .rightContainer {
+            padding: 18px;
+        }
+        
+        .rightContainer h1 {
+            font-size: 1.7rem;
+            background-color: #cbd6cc;
+            text-align: center;
+            padding: 10px;
+            letter-spacing: 1.3px;
+            border-radius: 4px;
+        }
+        
+        .rightContainer ul {
+            padding: 12px 35px;
+        }
+        
+        .rightContainer p {
+            line-height: 28px;
+        }
+        
+        .footer {
+            clear: both;
+        }
+        
+        .footer p {
+            padding: 20px;
+            text-align: center;
+            color: white;
+            background-color: #108462;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img id="leftImage" src="pic4.jpg" alt="Image Not Found">
+        <img id="rightImage" src="pic3.jpg" alt="Image Not Found">
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li class="activePage ">Home</li>
+            <li>Main Menu</li>
+            <li>Create Account</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="leftContainer">
+            <ul>
+                <li>Home</li>
+                <li style="color:red;">Main Menu</li>
+                <li>SNGPL</li>
+                <li>WASA</li>
+                <li>WAPDA</li>
+            </ul><br>
+            <h3>CONTACT US</h3>
+            <p><strong>Quid e Azam Campus(New Campus) Lahore, Pakistan.</strong></p><br>
+            <strong>Email:</strong>
+            <a style="color:red" href="www.pucit.edu.pk">www.pucit.edu.pk</a>
+            <p>Phone: +92-111-923-923, Ext 118. <br>UAN: (123) 111-923-923, Ext 118.
+            </p>
+        </div>
+        <div class="rightContainer">
+            <h1>Introduction</h1>
+            <p>Social issues are controversiional issues that relates to people's personal lives and intereactions. <strong>"Social Problems are those social conditions identified by scientific inquiry and values as determinal to human well-being." (Jerome G. Mannis)
+                </strong>
+                <br> Our PROJECT is a web based GIS Project. It's a website that has a list of generic Departments. The interface includes some tools (tool bars for editing maps) that can only used by authorized users. <br>
+                <strong>The department that have chosen are as follow: <br> </strong></p>
+            <ul>
+                <li><strong>WAPDA</strong></li>
+                <li><strong>WASA</strong></li>
+                <li><strong>SNGPL</strong></li>
+            </ul>
+            <br>
+            <p style="margin-left:40px">Due to this project people can easily report or mark the problems that exist in their areas on the web page by using a map instead of going to that department and then complain for the issue We can also analyze that which department has more
+                issues in a specific place.</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright <i class="far fa-copyright"></i> 2013. All Rights Reserved.</p>
+    </div>
+</body>
+
+</html>
